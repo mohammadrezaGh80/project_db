@@ -1,0 +1,7 @@
+{% extends '_base.html' %}
+
+{% block page_title %}successful{% endblock %}
+
+{% block page_content %}
+    <p>Your username is {{ username }}. please login <a href="{% url 'login' %}">Login</a></p>
+{% endblock %}
